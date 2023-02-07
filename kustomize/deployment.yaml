@@ -8,7 +8,7 @@ spec:
   progressDeadlineSeconds: 60
   strategy:
     rollingUpdate:
-      maxUnavailable: 0
+      maxUnavailable: 3
     type: RollingUpdate
   selector:
     matchLabels:
